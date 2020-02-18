@@ -1,0 +1,27 @@
+{
+    "name": "sewing-store-app",
+    "version": "0.0.0",
+    "browserslist": [
+        "last 10 version",
+        "ie 11"
+    ],
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.1",
+        "gulp-clean-css": "4.2.0",
+        "gulp-concat": "2.6.1",
+        "gulp-copy": "4.0.1",
+        "gulp-postcss": "8.0.0",
+        "gulp-replace": "1.0.0",
+        "gulp-rewrite-css": "1.1.2",
+        "gulp-sass": "^4.0.2",
+        "gulp-sourcemaps": "2.6.5",
+        "gulp-watch": "5.0.1",
+        "lite-server": "^2.5.4"
+    }
+}
