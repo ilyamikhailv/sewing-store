@@ -1,3 +1,18 @@
-.header{
+.header {
     display: table-row;
+    &__top {
+        background: #272D3B;
+        display: table;
+        width: 100%;
+    }
+    &__bottom {
+        background: #272D3B;
+        display: table;
+        width: 100%;
+    }
+    &__body {
+        background: #F2F3F8;
+        display: table;
+        width: 100%;
+    }
 }

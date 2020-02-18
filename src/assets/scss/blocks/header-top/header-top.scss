@@ -1,0 +1,15 @@
+.header-top {
+    min-height: 50px;
+    display: table;
+    width: 100%;
+    &__item {
+        display: table;
+        height: 50px;
+        width: 100%;
+    }
+    &__item_content {
+        display: table-cell;
+        vertical-align: middle;
+        box-sizing: border-box;
+    }
+}

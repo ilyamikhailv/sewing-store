@@ -9,7 +9,9 @@
         "dev": "lite-server"
     },
     "private": true,
-    "dependencies": {},
+    "dependencies": {
+        "bootstrap": "^4.4.1"
+    },
     "devDependencies": {
         "gulp": "4.0.2",
         "gulp-autoprefixer": "7.0.1",

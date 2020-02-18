@@ -1,0 +1,34 @@
+.header-geo {
+    display: inline-block;
+    white-space: nowrap;
+    &__label {
+        padding-right: 5px;
+        display: inline;
+    }
+    &__label_text {
+        font-family: inherit;
+        font-size: 14px;
+        color: #FFFFFF;
+    }
+    &__city_link {
+        outline: 0 none;
+        font-family: inherit;
+        font-size: 14px;
+        color: #DA112B;
+        text-decoration: none;
+        position: relative;
+        &::after {
+            content: '';
+            height: 1px;
+            background-color: #DA112B;
+            position: absolute;
+            display: block;
+            bottom: -1px;
+            left: 0;
+            width: calc(100% + 1px);
+        }
+        &:hover::after {
+            display: none;
+        }
+    }
+}
