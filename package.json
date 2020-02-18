@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "browserslist": [
         "last 10 version",
-        "ie 11"
+        "ie 10"
     ],
     "scripts": {
         "dev": "lite-server"
