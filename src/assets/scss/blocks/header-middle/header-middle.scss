@@ -1,0 +1,17 @@
+.header-middle {
+    min-height: 80px;
+    display   : table;
+    width     : 100%;
+
+    &__item {
+        display: table;
+        height : 80px;
+        width  : 100%;
+    }
+
+    &__item_content {
+        display       : table-cell;
+        vertical-align: middle;
+        box-sizing    : border-box;
+    }
+}
