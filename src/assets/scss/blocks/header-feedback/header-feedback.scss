@@ -1,0 +1,37 @@
+@import "../../../../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../../../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
+
+.header-feedback {
+    display            : table;
+    text-align         : left;
+    box-sizing         : border-box;
+    background-repeat  : no-repeat;
+    background-position: left center;
+    background-size    : 22px 22px;
+    padding-left       : 33px;
+    height             : 24px;
+    background-image   : url("data:image/svg+xml,%3Csvg viewBox='0 0 22 22' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17.875 0H4.125C1.85006 0 0 1.85006 0 4.125V13.75C0 16.0249 1.85006 17.875 4.125 17.875H12.375V21.3125C12.375 21.5903 12.5428 21.8412 12.7992 21.9478C12.8844 21.9828 12.9738 22 13.0625 22C13.2413 22 13.4173 21.9299 13.5486 21.7986L17.4721 17.875H17.875C20.1499 17.875 22 16.0249 22 13.75V4.125C22 1.85006 20.1499 0 17.875 0ZM20.625 13.75C20.625 15.2666 19.3916 16.5 17.875 16.5H17.1875C17.0053 16.5 16.83 16.5722 16.7014 16.7014L13.75 19.6529V17.1875C13.75 16.808 13.442 16.5 13.0625 16.5H4.125C2.60837 16.5 1.375 15.2666 1.375 13.75V4.125C1.375 2.60837 2.60837 1.375 4.125 1.375H17.875C19.3916 1.375 20.625 2.60837 20.625 4.125V13.75Z' fill='%23DA112B'/%3E%3Cpath d='M17.875 4.8125H4.125V6.1875H17.875V4.8125Z' fill='%23DA112B'/%3E%3Cpath d='M17.875 8.25H4.125V9.625H17.875V8.25Z' fill='%23DA112B'/%3E%3Cpath d='M17.875 11.6875H4.125V13.0625H17.875V11.6875Z' fill='%23DA112B'/%3E%3C/svg%3E%0A");
+
+    &__content {
+        display       : table-cell;
+        vertical-align: middle;
+        white-space   : nowrap;
+    }
+
+    &__link {
+        white-space    : nowrap;
+        text-decoration: none;
+        outline        : 0 none;
+    }
+
+    &__link_text {
+        font-weight: 600;
+        font-size  : .875rem;
+        color      : #F2F3F8;
+    }
+
+    @include media-breakpoint-up(md) {
+        float: right;
+    }
+}
