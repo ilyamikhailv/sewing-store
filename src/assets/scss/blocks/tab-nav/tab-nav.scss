@@ -1,0 +1,25 @@
+.tab-nav {
+    overflow: hidden;
+    list-style: none;
+    padding: 0 0 30px 0;
+    margin: 0;
+    display: block;
+    &__item {
+        float: left;
+        white-space: nowrap;
+        padding-right: 50px;
+    }
+    &__title {
+        font-family: inherit;
+        text-decoration: none;
+        outline: 0 none;
+        font-weight: 600;
+        font-size: 24px;
+        color: #272D3B;
+        &--active,
+        &.active {
+            color: #DA112B;
+            text-decoration: underline;
+        }
+    }
+}
