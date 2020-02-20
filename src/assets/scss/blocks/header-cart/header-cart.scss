@@ -1,0 +1,27 @@
+.header-cart {
+    position: relative;
+    display: inline-block;
+    &__link {
+        text-decoration: none;
+        outline: 0 none;
+    }
+    &__count {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background: #DA112B;
+        border-radius: 50%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(35%, -35%);
+        font-family: inherit;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        &:empty {
+            display: none;
+        }
+    }
+}

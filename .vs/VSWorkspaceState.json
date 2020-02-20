@@ -5,8 +5,9 @@
     "\\src\\assets",
     "\\src\\assets\\scss",
     "\\src\\assets\\scss\\blocks",
+    "\\src\\assets\\scss\\blocks\\0import",
     "\\src\\assets\\scss\\blocks\\header-feedback"
   ],
-  "SelectedNode": "\\src\\assets\\scss\\blocks\\header-feedback\\header-feedback.scss",
+  "SelectedNode": "\\src\\assets\\scss\\blocks\\0import\\imports.scss",
   "PreviewInSolutionExplorer": false
 }

@@ -1,11 +1,10 @@
 .header-logo {
     max-height: 80px;
-
+    display: inline-block;
     a,
     img {
-        display   : inline-block;
-        max-width : 100%;
+        display: inline-block;
+        max-width: 100%;
         max-height: 80px;
     }
-
 }
