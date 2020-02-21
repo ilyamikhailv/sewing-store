@@ -1,0 +1,26 @@
+.one-click {
+    display        : inline-block;
+    text-decoration: none;
+    outline        : 0 none;
+    white-space    : nowrap;
+    position       : relative;
+
+    &__text {
+        font-family: inherit;
+        font-style : normal;
+        font-weight: 600;
+        font-size  : 1.125rem;
+        color      : #DA112B;
+    }
+
+    &__icon {
+        position        : absolute;
+        left            : -25px;
+        top             : 50%;
+        margin-top      : -8px;
+        background-image: url('icon.svg');
+        display         : block;
+        width           : 18px;
+        height          : 18px;
+    }
+}

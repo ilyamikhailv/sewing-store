@@ -1,0 +1,48 @@
+.app-spinner {
+    display      : block;
+    position     : relative;
+    box-sizing   : border-box;
+    min-width    : 65px;
+    height       : 45px;
+    padding      : 0 17px;
+    border-radius: 10px;
+    overflow     : hidden;
+
+    &__button {
+        position           : absolute;
+        cursor             : pointer;
+        width              : 17px;
+        height             : 100%;
+        top                : 0;
+        background-repeat  : no-repeat;
+        background-position: center;
+        background-color   : #fff;
+        border             : 0 none;
+
+
+        &--plus {
+            background-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M7.002 2.592H4.482V0H2.52V2.592H0V4.536H2.52V7.128H4.482V4.536H7.002V2.592Z' fill='%23DA112B'/%3E%3C/svg%3E%0A");
+            right           : 0;
+        }
+
+        &--minus {
+            background-image: url("data:image/svg+xml,%3Csvg width='9' height='2' viewBox='0 0 9 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0V1.836H8.694V0H0Z' fill='%23DA112B'/%3E%3C/svg%3E%0A");
+            left            : 0;
+        }
+    }
+
+    &__input {
+        height     : inherit;
+        width      : 100%;
+        box-sizing : border-box;
+        text-align : center;
+        border     : 0 none;
+        background : #fff;
+        padding    : 0;
+        margin     : 0;
+        font-family: inherit;
+        font-weight: 900;
+        font-size  : 18px;
+        color      : #272D3B;
+    }
+}

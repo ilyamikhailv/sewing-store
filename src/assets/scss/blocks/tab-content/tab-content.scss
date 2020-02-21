@@ -1,4 +1,13 @@
 .tab-content {
     &__products {}
-    &__more {}
+
+    &__more {
+        padding   : 10px 0 30px;
+        text-align: center;
+    }
+
+    &__more_link {
+        display: inline-block;
+        width  : 165px;
+    }
 }

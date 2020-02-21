@@ -1,83 +1,119 @@
 .product-card {
-    width: 255px;
-    height: 488px;
-    background: #FAFAFA;
+    width        : 255px;
+    height       : 488px;
+    background   : #FAFAFA;
     border-radius: 5px;
-    box-sizing: border-box;
-    padding: 5px;
-    position: relative;
+    box-sizing   : border-box;
+    padding      : 5px;
+    position     : relative;
+    margin-bottom: 30px;
+
     &__image {
-        position: relative;
-        height: 245px;
+        position     : relative;
+        height       : 245px;
         border-radius: 5px;
-        overflow: hidden;
-        display: table;
-        width: 100%;
-        background: #fff;
+        overflow     : hidden;
+        display      : table;
+        width        : 100%;
+        background   : #fff;
         margin-bottom: 5px;
     }
+
     &__image_link {
-        display: table-cell;
+        display        : table-cell;
         text-decoration: none;
-        outline: 0 none;
-        vertical-align: middle;
-        text-align: center;
+        outline        : 0 none;
+        vertical-align : middle;
+        text-align     : center;
+
         img {
-            max-width: 90%;
+            max-width : 90%;
             max-height: 90%;
         }
     }
+
     &__content {
         padding: 0 10px;
     }
+
     &__articul {
         padding-bottom: 10px;
     }
+
     &__articul_text {
         font-family: inherit;
         font-weight: normal;
-        font-size: 12px;
+        font-size  : .75rem;
         line-height: 14px;
-        color: #323232;
+        color      : #323232;
     }
+
     &__name {
         padding-bottom: 10px;
     }
+
     &__name_link {
-        font-family: inherit;
-        font-style: normal;
-        font-weight: 900;
-        font-size: 16px;
-        line-height: 24px;
-        color: #272D3B;
-        display: inline;
+        font-family    : inherit;
+        font-style     : normal;
+        font-weight    : 900;
+        font-size      : 1rem;
+        line-height    : 24px;
+        color          : #272D3B;
+        display        : inline;
         text-decoration: none;
     }
+
     &__price {
-        display: table;
-        width: 100%;
-        table-layout: fixed;
+        display      : table;
+        width        : 100%;
+        table-layout : fixed;
+        margin-bottom: 17px;
     }
+
     &__price_item {
-        display: table-cell;
+        display       : table-cell;
         vertical-align: bottom;
-        text-align: left;
+        text-align    : left;
     }
+
     &__price_value {
         font-family: inherit;
         font-weight: 900;
-        font-size: 24px;
+        font-size  : 1.5rem;
         line-height: 29px;
-        color: #323232;
+        color      : #323232;
+
         &--new {
             color: #DA112B;
         }
+
         &--old {
-            font-weight: 600;
-            font-size: 18px;
-            line-height: 22px;
+            font-weight         : 600;
+            font-size           : 1.125rem;
+            line-height         : 22px;
             text-decoration-line: line-through;
-            color: #A6ABB8;
+            color               : #A6ABB8;
         }
+    }
+
+    &__cart {
+        display      : table;
+        width        : 100%;
+        margin-bottom: 15px;
+    }
+
+    &__cart_count {
+        display       : table-cell;
+        vertical-align: middle;
+        width         : 65px;
+        padding-right : 13px;
+    }
+
+    &__cart_add {
+        display: table-cell;
+    }
+
+    &__one_click {
+        text-align: right;
     }
 }
