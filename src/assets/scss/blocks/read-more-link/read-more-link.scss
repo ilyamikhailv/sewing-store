@@ -1,0 +1,11 @@
+.read-more-link {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: underline;
+    color: #FF1936;
+    &:hover {
+        text-decoration: none;
+    }
+}

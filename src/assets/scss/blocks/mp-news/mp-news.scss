@@ -1,0 +1,11 @@
+.mp-news {
+    padding-bottom: 60px;
+    &__bottom {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    &__more {
+        display: inline-block;
+        width: 162px;
+    }
+}

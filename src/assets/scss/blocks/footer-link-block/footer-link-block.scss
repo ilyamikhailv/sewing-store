@@ -1,0 +1,34 @@
+.footer-link-block {
+    margin-bottom: 20px;
+    &__title {
+        padding-bottom: 20px;
+    }
+
+    &__title_text {
+        font-family: inherit;
+        font-weight: 800;
+        font-size  : 1.125rem;
+        color      : #ffffff;
+    }
+
+    &__list {
+        list-style: none outside none;
+        margin    : 0;
+        padding   : 0;
+    }
+
+    &__list_item {
+        display       : block;
+        padding-bottom: 15px;
+    }
+
+    &__list_item_link {
+        font-family    : inherit;
+        display        : inline;
+        font-weight    : 600;
+        font-size      : 0.875rem;
+        color          : #ffffff;
+        text-decoration: none;
+        outline        : 0 none;
+    }
+}

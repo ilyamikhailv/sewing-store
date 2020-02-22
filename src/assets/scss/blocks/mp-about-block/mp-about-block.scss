@@ -1,0 +1,38 @@
+@import "../../../../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../../../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
+.mp-about-block {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 60px;
+    &::before {
+        position: absolute;
+        z-index: 0;
+        display: block;
+        height: 100%;
+        width: 50%;
+        left: 0;
+        top: 0;
+        content: '';
+        background: #E9ECF3;
+    }
+    &::after {
+        position: absolute;
+        z-index: 0;
+        display: block;
+        height: 100%;
+        width: 50%;
+        top: 0;
+        right: 0;
+        content: '';
+        background: #f2f3f8;
+    }
+    @include media-breakpoint-down(sm) {
+        &::before {
+            width: 100%;
+        }
+        &::after {
+            display: none;
+        }
+    }
+}

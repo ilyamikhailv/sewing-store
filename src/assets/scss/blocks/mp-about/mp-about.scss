@@ -1,0 +1,43 @@
+@import "../../../../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../../../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
+.mp-about {
+    display: table;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    height: 100px;
+    &__contact {
+        display: table-cell;
+        box-sizing: border-box;
+        width: 375px;
+        vertical-align: top;
+        padding: 30px;
+        text-align: left;
+    }
+    &__content {
+        display: table-cell;
+        background: #f2f3f8;
+        box-sizing: border-box;
+        padding: 30px;
+        text-align: left;
+        font-family: inherit;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 27px;
+        color: #323232;
+        p {
+            margin-top: 0;
+        }
+    }
+    @include media-breakpoint-down(sm) {
+        &__contact {
+            display: block;
+            width: auto;
+        }
+        &__content {
+            display: block;
+        }
+    }
+}

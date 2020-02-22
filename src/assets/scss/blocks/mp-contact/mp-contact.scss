@@ -1,0 +1,62 @@
+.mp-contact {
+    &__title {
+        padding-bottom: 40px;
+    }
+    &__title_text {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: #272D3B;
+    }
+    &__line {
+        padding-bottom: 15px;
+    }
+    &__address {
+        padding-bottom: 5px;
+    }
+    &__address_text {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.125rem;
+        color: #272D3B;
+    }
+    &__time_text {
+        font-family: inherit;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.125rem;
+        color: #fe1938;
+    }
+    &__phone {
+        height: 1.125rem;
+    }
+    &__phone_text {
+        font-weight: 800;
+        font-size: 1.125rem;
+        line-height: 27px;
+        color: #DA112B;
+    }
+    &__department {
+        height: .75rem;
+    }
+    &__department_text {
+        font-weight: normal;
+        font-size: .75rem;
+        color: #A6ABB8;
+    }
+    &__email {
+        padding-bottom: 10px;
+    }
+    &__email_link {
+        font-weight: 700;
+        font-size: 1rem;
+        text-decoration: underline;
+        color: #FF1936;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

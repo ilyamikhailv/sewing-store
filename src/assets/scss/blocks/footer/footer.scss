@@ -1,3 +1,14 @@
-.footer{
-    display: table-row;
+.footer {
+    display   : table-row;
+    background: #323232;
+
+    &__top {
+        padding: 50px 0 30px;
+    }
+
+    &__bottom {
+        background: #DA112B;
+        display   : table;
+        width     : 100%;
+    }
 }

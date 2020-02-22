@@ -1,0 +1,33 @@
+.footer-bottom {
+    &__item {
+        height        : 50px;
+        display       : table;
+        vertical-align: middle;
+        width         : 100%;
+    }
+
+    &__item_content {
+        display       : table-cell;
+        vertical-align: middle;
+    }
+
+    &__text {
+        font-family: inherit;
+        font-weight: 600;
+        font-size  : .75rem;
+        color      : #FFFFFF;
+    }
+
+    &__link {
+        font-family    : inherit;
+        font-weight    : 600;
+        font-size      : .75rem;
+        color          : #FFFFFF;
+        outline        : 0 none;
+        text-decoration: underline;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}

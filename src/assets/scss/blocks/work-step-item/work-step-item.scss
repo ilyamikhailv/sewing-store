@@ -1,66 +1,67 @@
+@import "../../../../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../../../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
 .work-step-item {
-    width              : 110px;
-    height             : 110px;
-    box-sizing         : border-box;
-    border-radius      : 50%;
-    background         : #FFFFFF;
-    border             : 2px solid #DA112B;
-    position           : relative;
-    background-repeat  : no-repeat;
+    width: 110px;
+    height: 110px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 2px solid #DA112B;
+    position: relative;
+    background-repeat: no-repeat;
     background-position: center;
-
     &--first::before {
         display: none;
     }
-
     &--last::after {
         display: none;
     }
-
     &::before {
-        background   : #FFFFFF;
-        border       : 2px solid #DA112B;
+        background: #FFFFFF;
+        border: 2px solid #DA112B;
         border-radius: 50%;
-        content      : '';
-        position     : absolute;
-        width        : 10px;
-        height       : 10px;
-        left         : 0;
-        top          : 50%;
-        transform    : translate(-50%, -50%);
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        left: 0;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
-
     &::after {
-        background   : #FFFFFF;
-        border       : 2px solid #DA112B;
+        background: #FFFFFF;
+        border: 2px solid #DA112B;
         border-radius: 50%;
-        content      : '';
-        position     : absolute;
-        width        : 10px;
-        height       : 10px;
-        top          : 50%;
-        right        : 0;
-        transform    : translate(50%, -50%);
+        content: '';
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        top: 50%;
+        right: 0;
+        transform: translate(50%, -50%);
     }
-
     &--market {
         background-image: url(img/market.svg);
     }
-
     &--phone {
         background-image: url(img/phone.svg);
     }
-
     &--order {
         background-image: url(img/order.svg);
     }
-
     &--pay {
         background-image: url(img/pay.svg);
     }
-
     &--deliver {
         background-image: url(img/deliver.svg);
     }
-
+    @include media-breakpoint-down(md) {
+        &::before {
+            display: none;
+        }
+        &::after {
+            display: none;
+        }
+    }
 }
