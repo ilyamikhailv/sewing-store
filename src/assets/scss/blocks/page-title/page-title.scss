@@ -1,0 +1,27 @@
+.page-title {
+    padding-bottom: 35px;
+    line-height   : 3rem;
+
+    &__h1 {
+        margin        : 0;
+        padding       : 0;
+        text-align    : center;
+        font-family   : inherit;
+        font-weight   : 600;
+        font-size     : 3rem;
+        text-transform: uppercase;
+        color         : #323232;
+    }
+}
+
+h1,
+.h1 {
+    margin        : 0;
+    padding       : 0;
+    text-align    : center;
+    font-family   : inherit;
+    font-weight   : 600;
+    font-size     : 3rem;
+    text-transform: uppercase;
+    color         : #323232;
+}

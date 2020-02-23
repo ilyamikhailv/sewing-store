@@ -1,0 +1,31 @@
+.breadcrumbs {
+    padding-bottom: 35px;
+    text-align    : left;
+    padding-top   : 30px;
+    padding-left  : 15px;
+
+    &__item {
+        display: inline;
+    }
+
+    &__item_link {
+        font-family    : inherit;
+        font-weight    : normal;
+        font-size      : .875rem;
+        color          : #323232;
+        text-decoration: none;
+        outline        : 0 none;
+
+        &--active {
+            color: #DA112B;
+        }
+    }
+
+    &__item_separator {
+        display : inline;
+        margin  : 0 5px;
+        color   : #DA112B;
+        position: relative;
+        top     : 2px;
+    }
+}
