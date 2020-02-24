@@ -15,34 +15,57 @@
         <div class="main">
           <div class="main__content">
             <div class="page-center">
-              <partial src="_breadcrumbs.html" title="Корзина"></partial>
-              <div class="page-title">
-                <h1 class="page-title__h1">
-                  корзина
-                </h1>
-              </div>
-              <div class="cart-table">
-                <table class="cart-table__table">
-                  <thead>
-                    <tr>
-                      <th>
-                        Наименование товара
-                      </th>
-                      <th>
-                        Цена
-                      </th>
-                      <th>
-                        Количество
-                      </th>
-                      <th>
-                        Сумма
-                      </th>
-                      <th>&nbsp;</th>
-                    </tr>
-                  </thead>
-                  <tbody></tbody>
-                  <tfoot></tfoot>
-                </table>
+              <div class="container">
+                <partial src="_breadcrumbs.html" title="Корзина"></partial>
+                <div class="page-title">
+                  <h1 class="page-title__h1">
+                    корзина
+                  </h1>
+                </div>
+                <partial src="_cart-table.html"></partial>
+                <partial
+                  src="_cart-step-action.html"
+                  prev="Продолжить покупки"
+                  next="Оформить заказ"
+                ></partial>
+
+                <div class="reccomended-goods">
+                  <div class="reccomended-goods__title">
+                    <div class="reccomended-goods__title_item text-left">
+                      <span class="reccomended-goods__title_text">
+                        рекомендуемые товары
+                      </span>
+                    </div>
+                    <div
+                      class="reccomended-goods__title_item text-right text-sm-left"
+                    >
+                      <div class="reccomended-goods__all">
+                        <a href="#" class="btn btn--white">смотреть все</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="reccomended-goods__content">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <partial src="_product-card.html"></partial>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <partial src="_product-card.html"></partial>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <partial src="_product-card.html"></partial>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <partial src="_product-card.html"></partial>
+                        </div>
+                        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                          <partial src="_product-card.html"></partial>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

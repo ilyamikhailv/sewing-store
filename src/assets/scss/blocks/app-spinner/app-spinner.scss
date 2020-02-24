@@ -1,12 +1,13 @@
 .app-spinner {
-    display      : block;
-    position     : relative;
-    box-sizing   : border-box;
-    min-width    : 65px;
-    height       : 45px;
-    padding      : 0 17px;
-    border-radius: 10px;
-    overflow     : hidden;
+    display         : block;
+    position        : relative;
+    box-sizing      : border-box;
+    min-width       : 65px;
+    height          : 45px;
+    padding         : 0 17px;
+    border-radius   : 10px;
+    overflow        : hidden;
+    background-color: #fff;
 
     &__button {
         position           : absolute;
@@ -16,7 +17,7 @@
         top                : 0;
         background-repeat  : no-repeat;
         background-position: center;
-        background-color   : #fff;
+        background-color   : transparent;
         border             : 0 none;
 
 
@@ -32,17 +33,22 @@
     }
 
     &__input {
-        height     : inherit;
-        width      : 100%;
-        box-sizing : border-box;
-        text-align : center;
-        border     : 0 none;
-        background : #fff;
-        padding    : 0;
-        margin     : 0;
-        font-family: inherit;
-        font-weight: 900;
-        font-size  : 18px;
-        color      : #272D3B;
+        height          : inherit;
+        width           : 100%;
+        box-sizing      : border-box;
+        text-align      : center;
+        border          : 0 none;
+        background-color: transparent;
+        padding         : 0;
+        margin          : 0;
+        font-family     : inherit;
+        font-weight     : 900;
+        font-size       : 18px;
+        color           : #272D3B;
+    }
+
+    &--cart {
+        width     : 65px;
+        background: #FAFAFA;
     }
 }

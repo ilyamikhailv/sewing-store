@@ -1,0 +1,41 @@
+@import "../../../../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../../../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
+
+
+.reccomended-goods {
+    &__title {
+        display     : table;
+        width       : 100%;
+        table-layout: fixed;
+    }
+
+    &__title_item {
+        display       : table-cell;
+        padding-bottom: 40px;
+        vertical-align: middle;
+
+        @include media-breakpoint-down(sm) {
+            display: block;
+        }
+    }
+
+    &__title_text {
+        font-family   : inherit;
+        font-style    : normal;
+        font-weight   : 800;
+        font-size     : 1.75rem;
+        text-transform: uppercase;
+        color         : #323232;
+    }
+
+    &__all {
+        display: inline-block;
+        width  : 162px;
+    }
+
+    &__content {
+        
+    }
+
+}
