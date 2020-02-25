@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html class="page-html">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Заголовок страницы</title>
+  <link rel="stylesheet" href="/assets/build/all.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge" />
+</head>
+
+<body class="page-body">
+  <div class="wrapper">
+    <partial src="_header.html"></partial>
+    <div class="content">
+      <div class="main">
+        <div class="main__content">
+          <div class="page-center">
+            <div class="container">
+              <partial src="_breadcrumbs.html" title="Личный кабинет"></partial>
+              <div class="page-title">
+                <h1 class="page-title__h1">
+                  Личный кабинет
+                </h1>
+              </div>
+              <div class="account-greeting">
+                <span class="account-greeting__text">Здравстуйте,
+                  <span class="account-greeting__text--bold">Алексей!</span></span>
+              </div>
+              <div class="account-sections">
+                <div class="account-sections__item">
+                  <span class="account-sections__link">
+                    Мой профиль
+                  </span>
+                </div>
+                <div class="account-sections__item">
+                  <a href="#" class="account-sections__link account-sections__link--active">
+                    Мои заказы
+                  </a>
+                </div>
+              </div>
+              <div class="account-order-sections">
+                <div class="account-order-sections__item">
+                  <span class="account-order-sections__link account-order-sections__link--active">
+                    Все заказы 
+                  </span>
+                </div>
+                <div class="account-order-sections__item">
+                  <a href="#" class="account-order-sections__link">
+                    В обработке
+                  </a>
+                </div>
+                <div class="account-order-sections__item">
+                  <a href="#" class="account-order-sections__link">
+                    Выполненные
+                  </a>
+                </div>
+                <div class="account-order-sections__item">
+                  <a href="#" class="account-order-sections__link">
+                    Отмененные
+                  </a>
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <partial src="_footer.html"></partial>
+  </div>
+</body>
+
+</html>
