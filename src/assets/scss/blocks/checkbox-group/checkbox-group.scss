@@ -1,0 +1,42 @@
+.checkbox-group {
+    display      : table;
+    width        : 100%;
+
+    &__input {
+        display       : table-cell;
+        vertical-align: top;
+        width         : 15px;
+        padding-right : 5px;
+    }
+
+    &__label {
+        display       : table-cell;
+        vertical-align: top;
+    }
+
+    &__checkbox {
+        width        : 15px;
+        height       : 15px;
+        background   : #FAFAFA;
+        border-radius: 3px;
+        border       : 1px solid #A6ABB8;
+    }
+
+    &__label_text {
+        font-family: inherit;
+        font-style : normal;
+        font-weight: normal;
+        font-size  : .75rem;
+        line-height: 18px;
+        color      : #323232;
+
+        a {
+            color          : #DA112B;
+            text-decoration: underline;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.form-label {
+    padding: 0 0 10px 5px;
+
+    &__label,
+    &>label {
+        font-family: inherit;
+        font-style : normal;
+        font-weight: 700;
+        font-size  : 1rem;
+        color      : #272D3B;
+    }
+    
+}

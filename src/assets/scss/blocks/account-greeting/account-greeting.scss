@@ -1,0 +1,16 @@
+.account-greeting {
+    padding-bottom: 30px;
+
+    &__text {
+        font-family: inherit;
+        font-style : normal;
+        font-weight: 500;
+        font-size  : 1.125rem;
+        line-height: 1;
+        color      : #323232;
+
+        &--bold {
+            font-weight: 700;
+        }
+    }
+}

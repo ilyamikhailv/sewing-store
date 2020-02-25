@@ -1,0 +1,27 @@
+@import "../../../../../node_modules/bootstrap/scss/_functions.scss";
+@import "../../../../../node_modules/bootstrap/scss/_variables.scss";
+@import "../../../../../node_modules/bootstrap/scss/mixins";
+
+.form-group {
+    padding-bottom: 30px;
+
+    &__title {
+        padding-bottom: 20px;
+    }
+
+    &__title_text {
+        font-family: inherit;
+        font-style : normal;
+        font-weight: 600;
+        font-size  : 1.25rem;
+        color      : #272D3B;
+    }
+
+    &--account {
+        width: 320px;
+
+        @include media-breakpoint-down(sm) {
+            width: auto;
+        }
+    }
+}
